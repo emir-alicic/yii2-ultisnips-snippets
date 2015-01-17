@@ -1,3 +1,31 @@
+#######
+# Use #
+#######
+
+snippet uyvd
+use yii\helpers\VarDumper;
+endsnippet
+
+snippet uyh
+use yii\helpers\Html;
+endsnippet
+
+#############
+# Shortcuts #
+#############
+
+#############
+# VarDumper #
+#############
+
 snippet yvd
 VarDumper::dump($1, 10, true);
+endsnippet
+
+snippet yvds
+VarDumper::dumpAsString($1, 10, true);
+endsnippet
+
+snippet yvde
+VarDumper::export($1);
 endsnippet
